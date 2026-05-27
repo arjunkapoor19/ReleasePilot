@@ -1,0 +1,15 @@
+diff --git a/tools/search.py b/tools/search.py
+index e1a2b3c..f4d5e6f 100644
+--- a/tools/search.py
++++ b/tools/search.py
+@@ -1,7 +1,6 @@
+ class SearchTool:
+-    def search(self, query, limit=5):
++    def search(self, query):
+         return {
+             "query": query,
+-            "results": [
+-                f"Result {i + 1} for '{query}'"
+-                for i in range(limit)
++            "results": [f"Result for '{query}'"]
+         }

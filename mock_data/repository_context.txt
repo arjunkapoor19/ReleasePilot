@@ -1,0 +1,24 @@
+Repository Architecture:
+
+search_tool:
+- Used by router_agent
+- Used by memory_agent
+- Handles semantic retrieval
+
+router_agent:
+- Routes customer queries
+- Depends on search_tool
+
+memory_agent:
+- Stores conversational context
+- Uses retrieval augmentation
+
+customer_support_resolution workflow:
+- Uses router_agent
+- Uses memory_agent
+- Handles automated ticket resolution
+
+Deployment Environment:
+- Production AI orchestration system
+- Multi-agent workflow architecture
+- Runtime dependency propagation enabled
