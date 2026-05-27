@@ -307,10 +307,3 @@ Operational Risk Assessment
         ↓
 Deployment Strategy Generation
 ```
-
-
----
-
-# Author
-
-Arjun Kapoor
